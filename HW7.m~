@@ -127,11 +127,10 @@ title('A blue,  B red');
 
 % Part 3. By any means you want, write code to produce a bifurcation diagram showing all
 % fixed points of the system as a function of the V parameter. 
-
 figure; hold on;
-a=1;
+a=01;
 for b=0:0.05:3
-    polycoeff=[1 -b -a 1];
+    polycoeff=[1 -a 1 -b];
     rts=roots(polycoeff);
     rts=rts(imag(rts)==0);
     plot(b*ones(length(rts),1),rts,'.r');
