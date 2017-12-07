@@ -1,4 +1,14 @@
 %HW7
+%GB comments
+
+1a 100
+1b 90. I think I understand what you are trying to say, but its not entirely clear. Be sure to say that ‘a’ does not affect the stability points, but it does affect how quickly the points are reached. 
+1c 95 axis lables missing
+1d 80 discussion of stability points should be mentioned 
+2a 0 wrong equations. Should be [V/(1+x(2)^4)-x(1); V/(1+x(1)^4)-x(2)];
+2b 100. Give full credit but graphs are not correct because 2a is wrong
+2c 100  Give full credit but graphs are not correct because 2a is wrong
+overall: 81
 
 % Problem 1: Modeling population growth
 % The simplest model for a growing population assumes that each current
